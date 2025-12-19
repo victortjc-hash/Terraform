@@ -35,6 +35,33 @@ Purpose
 Architecture -
 <img width="746" height="555" alt="Screenshot 2025-12-19 at 1 39 19 PM" src="https://github.com/user-attachments/assets/54f0e2db-1087-411d-b2d0-a4996bec01e2" />
 
-main.tf
+see main_IAM.tf 
 
+This diagram translate the file. 
+<img width="772" height="309" alt="Screenshot 2025-12-19 at 1 56 14 PM" src="https://github.com/user-attachments/assets/dfe028ae-ca8f-4f24-bb1e-82e992557951" />
+
+Confirmation
+
+Using AWS COnsole -> IAM to confirm the creation of app & web_hosting roles:
+
+<img width="776" height="674" alt="Screenshot 2025-12-19 at 2 07 11 PM" src="https://github.com/user-attachments/assets/00917ef7-4a78-4542-af69-7666c00fc05f" />
+<img width="627" height="623" alt="Screenshot 2025-12-19 at 2 07 32 PM" src="https://github.com/user-attachments/assets/29beb718-7cb9-43aa-878e-c44e83c4854e" />
+
+Step 1 successful!
+
+Now moving to Step 2 - 
+Creating Resources for Networking
+
+The next step is create a VPC.
+
+Architecture:
+
+<img width="1038" height="633" alt="Screenshot 2025-12-19 at 2 13 43 PM" src="https://github.com/user-attachments/assets/85173cb9-4941-4960-93ee-159a062c5c73" />
+
+Confirmation
+Using AWS Console -> VPC to confirm the creation of VPC
+
+<img width="954" height="534" alt="Screenshot 2025-12-19 at 2 38 59 PM" src="https://github.com/user-attachments/assets/d8ab6f35-e30c-4013-83c4-f6802fc69236" />
+<img width="899" height="476" alt="Screenshot 2025-12-19 at 2 38 51 PM" src="https://github.com/user-attachments/assets/b677193c-185f-4c0b-9bad-8676eb7d066d" />
+<img width="824" height="360" alt="Screenshot 2025-12-19 at 2 38 44 PM" src="https://github.com/user-attachments/assets/ab8c7e91-89f0-486f-b3e7-26644b175144" />
 
