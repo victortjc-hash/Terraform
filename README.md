@@ -58,10 +58,30 @@ Architecture:
 
 <img width="1038" height="633" alt="Screenshot 2025-12-19 at 2 13 43 PM" src="https://github.com/user-attachments/assets/85173cb9-4941-4960-93ee-159a062c5c73" />
 
+See main_VPC.tf
+
 Confirmation
 Using AWS Console -> VPC to confirm the creation of VPC
 
 <img width="954" height="534" alt="Screenshot 2025-12-19 at 2 38 59 PM" src="https://github.com/user-attachments/assets/d8ab6f35-e30c-4013-83c4-f6802fc69236" />
 <img width="899" height="476" alt="Screenshot 2025-12-19 at 2 38 51 PM" src="https://github.com/user-attachments/assets/b677193c-185f-4c0b-9bad-8676eb7d066d" />
 <img width="824" height="360" alt="Screenshot 2025-12-19 at 2 38 44 PM" src="https://github.com/user-attachments/assets/ab8c7e91-89f0-486f-b3e7-26644b175144" />
+
+Step 2 completed!
+
+Step 3
+Deploy Security
+Goal - Create Security Groups and VPC Endpoints to privately connect to AWS services
+
+Architecture:
+<img width="1048" height="657" alt="Screenshot 2025-12-19 at 2 47 20 PM" src="https://github.com/user-attachments/assets/eea352ce-95ee-42c9-863f-7fdc55fa9ec0" />
+
+Creating Resources
+- aws_security_group - Create a security group that controls the traffic that is allowed to reach and leave the resources
+- aws_vpc_endpoint - Create a VPC endpoint (VPCE) enables customers to privately connect to supported AWS services
+
+Confirmation
+<img width="1126" height="478" alt="Screenshot 2025-12-19 at 3 28 57 PM" src="https://github.com/user-attachments/assets/04ecfde6-1743-48bd-b4e1-42306bbb6c5a" />
+<img width="1424" height="339" alt="Screenshot 2025-12-19 at 3 32 51 PM" src="https://github.com/user-attachments/assets/519f8d3c-855b-4417-a128-b078b5035b27" />
+
 
